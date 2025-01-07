@@ -10,7 +10,6 @@
             </div>
       </header>
 
-      
 
               <div class="flex flex-wrap justify-between sm:justify-end w-full">
           <!-- Element that should be aligned at the start -->
@@ -24,15 +23,15 @@
                 <FilterButton />
                 <AddUserButton />
               </div>
-            </div>
+    
       
-  
+      </div>
 
 
     <table class="table-auto w-full border-collapse mt-5">
       <thead class="h-14">
         <tr class="bg-gray-100  ">   
-          <th class="px-4 py-2 border-0 flex  ml-14 mt-3 font-light  ">Username</th>
+          <th class="px-4 py-2 border-0 flex  ml-12 mt-3 font-light  ">Username</th>
           <th class="px-4 py-2 border-0 font-light">Role</th>
           <th class="px-4 py-2 border-0 font-light">Date Added</th>
           <th class="px-4 py-2 border-0 font-light">Status</th>
