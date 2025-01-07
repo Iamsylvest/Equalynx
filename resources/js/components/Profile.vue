@@ -1,18 +1,24 @@
 <template>
 
 <div>
-        <button
-            @click="modalProfile = true" class="flex items-center justify-center w-12 h-12  cursor-pointer hover:bg-gray-100 rounded-full">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
-                <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
-            </svg>
-        </button>
+                        <button
+                                @click="openModal"
+                                :class="{
+                                    'bg-gray-100': isClicked,
+                                    'hover:bg-gray-100': !isClicked,
+                                    'active:bg-gray-300': isClicked
+                                }"
+                                c  class="flex items-center justify-center w-12 h-12 cursor-pointer transition duration-300 focus:outline-none rounded-full">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
+                                    <path fill-rule="evenodd" d="M7.5 6a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0ZM3.751 20.105a8.25 8.25 0 0 1 16.498 0 .75.75 0 0 1-.437.695A18.683 18.683 0 0 1 12 22.5c-2.786 0-5.433-.608-7.812-1.7a.75.75 0 0 1-.437-.695Z" clip-rule="evenodd" />
+                                </svg>
+                                </button>
 
-      
+
                 <!-- Modal -->
                     <div v-if="modalProfile" class="absolute inset-0 flex items-center justify-end bg-opacity-50 ">
                         
-                        <div @click="modalProfile = false" class="fixed inset-0 z-10 opacity-50" ></div>
+                        <div @click="closeModal" class="fixed inset-0 z-10 opacity-50" ></div>
                         <div class="bg-white border-1 shadow-lg rounded-md px-4 py-10 z-20 mx-4 w-full max-w-sm h-[420px] relative top-[240px] min-w-[200px] max-h-[500px] min-h-[300px]">
                             <div class="flex items-center justify-end mb-4 relative top-[-30px]">
                            <!-- x button -->      
@@ -100,12 +106,18 @@
                 data() {
                     return{
                         modalProfile: false,
+                        isClicked: false,
                     };
                 },
                 methods: {
-                    toggleProfile (){
-                        this.modalProfile = !this.modalProfile;
+                    openModal (){
+                        this.modalProfile = true;
+                        this.isClicked = true;
                     },
+                    closeModal (){
+                        this.modalProfile = false;
+                        this.isClicked = false;
+                    }
                 },
 
 
