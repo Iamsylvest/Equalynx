@@ -3,7 +3,7 @@
     <div class="p-8 ">
       
       <header>
-           <h1 class="text-3xl">User Management</h1>
+           <h1 class="text-3xl font-bold">User Management</h1>
             <div class="flex justify-end space-x-4 relative top-[-38px]">
               <Notification/>
               <Profile/>
@@ -31,11 +31,11 @@
     <table class="table-auto w-full border-collapse mt-1 shadow-lg">
       <thead class="h-14">
         <tr class="bg-gray-100  ">   
-          <th class="px-4 py-2 border-0 flex  ml-12 mt-3 font-light  ">Username</th>
-          <th class="px-4 py-2 border-0 font-light">Role</th>
-          <th class="px-4 py-2 border-0 font-light">Date Added</th>
-          <th class="px-4 py-2 border-0 font-light">Status</th>
-          <th class="px-4 py-2 border-0 font-light">Action</th>
+          <th class="px-4 py-2 border-0 flex  ml-12 mt-3 font-bold  ">Username</th>
+          <th class="px-4 py-2 border-0 font-bold">Role</th>
+          <th class="px-4 py-2 border-0 font-bold">Date Added</th>
+          <th class="px-4 py-2 border-0 font-bold">Status</th>
+          <th class="px-4 py-2 border-0 font-bold">Action</th>
         </tr>
       </thead>
       <tbody>
