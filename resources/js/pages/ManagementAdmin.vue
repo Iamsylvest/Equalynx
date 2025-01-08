@@ -1,16 +1,17 @@
 <template>
-  <AdminLayout>
+  <UserManagementLayout>
     <!-- Content here will be injected into the slot defined in AdminLayout -->
 
-  </AdminLayout>
+  </UserManagementLayout>
 </template>
 
 <script>
-import AdminLayout from "../layouts/adminLayout/AdminLayout.vue";
+import UserLayout from "../layouts/adminLayout/UserLayout.vue";
 
 export default {
+    name: 'AdminUserManagement', 
   components: {
-    AdminLayout,
+    UserLayout,
   },
 };
 </script>

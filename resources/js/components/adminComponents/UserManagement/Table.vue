@@ -11,24 +11,24 @@
       </header>
 
 
-              <div class="flex flex-wrap justify-between sm:justify-end w-full">
+          <div class="flex flex-row justify-between">
           <!-- Element that should be aligned at the start -->
-              <div class="relative top-2 w-full sm:w-auto sm:mb-6 flex-grow p-3">
-                <h1 class="text-xl font-semibold">All users <span>#</span></h1>
+              <div class="flex w-full max-w-32 p-4  sm:whitespace-nowrap md:whitespace-nowrap">
+                <h1 class="text-xl font-semibold ">All users <span>#</span></h1>
               </div>
 
               <!-- Elements that should be aligned at the end -->
-              <div class="flex space-x-3 mt-4 sm:mt-0 sm:ml-auto sm:space-x-4">
+              <div class="flex space-x-6 ">
                 <SearchBar />
                 <FilterButton />
                 <AddUserButton />
               </div>
     
       
-      </div>
+          </div>
 
 
-    <table class="table-auto w-full border-collapse mt-5">
+    <table class="table-auto w-full border-collapse mt-1 shadow-lg">
       <thead class="h-14">
         <tr class="bg-gray-100  ">   
           <th class="px-4 py-2 border-0 flex  ml-12 mt-3 font-light  ">Username</th>

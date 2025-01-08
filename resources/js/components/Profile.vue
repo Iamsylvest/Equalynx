@@ -4,9 +4,11 @@
                         <button
                                 @click="openModal"
                                 :class="{
-                                    'bg-gray-100': isClicked,
-                                    'hover:bg-gray-100': !isClicked,
-                                    'active:bg-gray-300': isClicked
+                                        'bg-custom-blue': isClicked,
+                                        'hover:bg-custom-blue ': !isClicked,
+                                        'text-white': isClicked,
+                                        'hover:text-white': !isClicked,
+                                        'active:bg-custom-blue': isClicked
                                 }"
                                 c  class="flex items-center justify-center w-12 h-12 cursor-pointer transition duration-300 focus:outline-none rounded-full">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6">
@@ -23,7 +25,7 @@
                             <div class="flex items-center justify-end mb-4 relative top-[-30px]">
                            <!-- x button -->      
                                     <button
-                                        @click="modalProfile = false"
+                                         @click="closeModal"
                                         class="flex items-center justify-center p-2 hover:bg-gray-100 rounded-full "
                                     >
                                         <svg

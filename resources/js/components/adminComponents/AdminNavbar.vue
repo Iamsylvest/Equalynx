@@ -19,7 +19,7 @@
       <!-- Sidebar Menu Items -->
       <div class="mb-10">
         <router-link
-          to="/user-management"
+          to="/ManagementAdmin"
           class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue rounded hover:text-white"
         >
         <svg
@@ -40,7 +40,7 @@
         </router-link>
 
         <router-link
-          to="/user-management"
+          to="/InventoryAdmin"
           class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue rounded hover:text-white"
         >
         <svg 
@@ -206,7 +206,7 @@
         <div class="relative top-[60px]">
         <router-link
                 to="/user-management"
-                class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue rounded hover:text-white"
+                class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue  rounded-full hover:text-white transition duration-300 focus:outline-none"
               >
               <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -227,7 +227,7 @@
 
               <router-link
                 to="/user-management"
-                class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue rounded hover:text-white"
+                class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue r rounded-full hover:text-white transition duration-300 focus:outline-none"
               >
               <svg 
                   xmlns="http://www.w3.org/2000/svg" 
@@ -246,7 +246,7 @@
 
               <router-link
                 to="/user-management"
-                class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue rounded hover:text-white"
+                class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue  rounded-full hover:text-white transition duration-300 focus:outline-none"
               >
               <svg 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -265,7 +265,7 @@
             
               <router-link
                 to="/user-management"
-                class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue rounded hover:text-white"
+                class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue  rounded-full hover:text-white transition duration-300 focus:outline-none"
               >
               <svg 
                   xmlns="http://www.w3.org/2000/svg" 
@@ -284,7 +284,7 @@
 
               <router-link
                 to="/user-management"
-                class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue rounded hover:text-white"
+                class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue rounded-full hover:text-white transition duration-300 focus:outline-none"
               >
 
               <svg 
@@ -305,7 +305,7 @@
             
               <router-link
                 to="/user-management"
-                class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue rounded hover:text-white"
+                class="flex items-center mx-6 mb-2 text-xs p-4 text-black-200 uppercase tracking-widest cursor-pointer hover:text-white-600 hover:bg-custom-blue rounded-full hover:text-white transition duration-300 focus:outline-none"
               >
               <svg 
                     xmlns="http://www.w3.org/2000/svg" 
@@ -326,15 +326,10 @@
               </router-link>
             </div>
 
-
-        
       </header>
     </div>
     
   </div>
-
-
-
 
 
 </template>

@@ -2,12 +2,9 @@
   <div class="flex">
     <!-- AdminNavbar controls the toggling of the side panel -->
     <AdminNavbar @toggleSidePanel="toggleSidePanel" />
-
+    <router-view />   <!-- Routed components will be injected here -->
     <!-- Main content that will adjust based on the side panel visibility -->
-    <div
-      :class="['transition-all duration-300', { 'ml-64': isSidePanelOpen, 'ml-0': !isSidePanelOpen }]"
-      class="flex-1"
-    >
+    <div class="flex-1" >
       <!-- Table and other content -->
       <Table />
 
@@ -21,6 +18,7 @@ import AdminNavbar from "../../components/adminComponents/AdminNavbar.vue";
 import Table from "../../components/adminComponents/UserManagement/Table.vue";
 
 export default {
+  name: 'UserLayout',
   components: {
     AdminNavbar,
     Table,

@@ -1,16 +1,16 @@
-<!-- resources/js/App.vue -->
 <template>
   <div>
-    <AdminUserManagement/>
+    
+    <router-view />
   </div>
+  
 </template>
 
 <script>
-import AdminUserManagement from './pages/AdminUserManagement.vue';
+
 
 export default {
-  components: {
-    AdminUserManagement
-},
+  name: 'App',
+  
 };
 </script>
