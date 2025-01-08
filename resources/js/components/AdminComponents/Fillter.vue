@@ -19,6 +19,6 @@
   </template>
   <script>
     export default {
-        name: "FilterButton",
+        name: "Fillter",
     };
   </script>

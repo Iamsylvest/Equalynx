@@ -32,7 +32,7 @@
   
   <script>
   export default {
-    name: "SearchBar",
+    name: "Search",
   
     data() {
       return {

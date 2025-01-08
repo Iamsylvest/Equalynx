@@ -1,24 +1,16 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import ManagementAdmin from '../pages/ManagementAdmin.vue';
-import InventoryAdmin from '../pages/InventoryAdmin.vue';
+import UserManagement from '@/pages/Admin/UserManagement.vue';
 
 const routes = [
-  {
-    path: '/ManagementAdmin',
-    name: 'ManagementAdmin',
-    component: ManagementAdmin
-  },
-  {
-    path: '/InventoryAdmin',
-    name: 'InventoryAdmin',
-    component: InventoryAdmin
-  },
-  // Other routes
+    {
+        path: '/', name: 'UserManagement', component: UserManagement
+    },
+    // Add other routes as needed
 ];
 
 const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
-  routes
+    history: createWebHistory(),
+    routes
 });
 
 export default router;

@@ -19,9 +19,9 @@
 
               <!-- Elements that should be aligned at the end -->
               <div class="flex space-x-6 ">
-                <SearchBar />
-                <FilterButton />
-                <AddUserButton />
+                <Search />
+                <Fillter />
+                <AddUser/>
               </div>
     
       
@@ -117,23 +117,22 @@
   
 </template>
 
-
 <script>
-import Notification from "@/components/Notification.vue";
-import Profile from "@/components/Profile.vue";
-import SearchBar from "@/components/adminComponents/UserManagement/Search.vue";
-import AddUserButton from "@/components/adminComponents/UserManagement/AddUser.vue";
-import FilterButton from "@/components/adminComponents/UserManagement/FilterButton.vue";
+import Profile from '@/components/AdminComponents/Profile.vue';
+import Notification from '@/components/AdminComponents/Notification.vue';
+import AddUser from '@/components/AdminComponents/AddUser.vue';
+import Fillter from '@/components/AdminComponents/Fillter.vue';
+import Search from '@/components/AdminComponents/Search.vue';
 
   export default {
-    name: "Table",
+    name: "UserTable",
 
     components:{
-      Notification,
-      Profile,
-      SearchBar,
-      AddUserButton,
-      FilterButton,
+        Profile,
+        Notification,
+        AddUser,
+        Fillter,
+        Search,
     },
 
   };
