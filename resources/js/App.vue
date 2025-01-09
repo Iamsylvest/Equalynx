@@ -2,7 +2,6 @@
   <div class="flex h-screen">
     <!-- AdminNavBar -->
     <AdminNavBar v-if="isAdminNavBarVisible" />
-
     <!-- Main Content -->
     <div class="flex-1 p-4">
       <router-view />
@@ -13,9 +12,13 @@
 <script>
 import AdminNavBar from './components/AdminNavBar.vue';
 
+
 export default {
   name: 'App',
-  components: { AdminNavBar },
+  components:{ AdminNavBar ,
+
+  },
+
   data() {
     return {
       // Flag to control the visibility of the AdminNavBar

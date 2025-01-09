@@ -1,18 +1,20 @@
 <template>
     <div>
-     <p>asdasaasdsadsaasdasdasdasdassdas</p>
+     <Transaction></Transaction>
     </div>
 </template>
 
 <script>
-
-
+import Transaction from '@/components/AdminComponents/Transaction.vue';
 
 export default {
+
+
     name: 'AdminTransaction',
 
-    components: {
+    components: { Transaction,
         
+   
         // List components used here
     }
 };

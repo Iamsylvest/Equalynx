@@ -7,20 +7,24 @@ import AdminTransaction from '@/pages/Admin/AdminTransaction.vue';
 import AdminNotification from '@/pages/Admin/AdminNotification.vue';
 import AdminSettings from '@/pages/Admin/AdminSettings.vue';
 
+
+
+
 const routes = [
 
-        {path: '/', name: 'UserManagement', component: UserManagement
+        {path: '/', name: 'UserManagement', component: UserManagement,   meta: { navbar: 'default' },
     },
-        {path: '/AdminInventory', name: 'AdminInventory', component: AdminInventory
+        {path: '/AdminInventory', name: 'AdminInventory', component: AdminInventory, meta: { navbar: 'default' }, 
     },
-        {path: '/AdminTransaction', name: 'AdminTransaction', component: AdminTransaction
+        {path: '/AdminTransaction', name: 'AdminTransaction', component: AdminTransaction, meta: { navbar: 'default' }, 
     },
-        {path: '/ActivityLogs', name: 'ActivityLogs', component: ActivityLogs 
+        {path: '/ActivityLogs', name: 'ActivityLogs', component: ActivityLogs, meta: { navbar: 'default' },  
     },
-        {path: '/AdminNotification', name: 'AdminNotification', component: AdminNotification 
+        {path: '/AdminNotification', name: 'AdminNotification', component: AdminNotification, meta: { navbar: 'default' },  
     },
-        {path: '/AdminSettings', name: 'AdminSettings', component: AdminSettings 
+        {path: '/AdminSettings', name: 'AdminSettings', component: AdminSettings, meta: { navbar: 'default' },  
     },
+     
     // Add other routes as needed
 ];
 

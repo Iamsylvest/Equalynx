@@ -30,7 +30,7 @@
 
     <table class="table-auto w-full border-collapse mt-1 shadow-lg">
       <thead class="h-14">
-        <tr class="bg-gray-100  ">   
+        <tr class="bg-custom-blue text-white ">   
           <th class="px-4 py-2 border-0 flex  ml-12 mt-3 font-bold  ">Username</th>
           <th class="px-4 py-2 border-0 font-bold">Role</th>
           <th class="px-4 py-2 border-0 font-bold">Date Added</th>
