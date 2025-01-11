@@ -2,11 +2,10 @@ import { createRouter, createWebHistory } from 'vue-router';
 
 import UserManagement from '@/pages/Admin/UserManagement.vue';
 import AdminInventory from '@/pages/Admin/AdminInventory.vue';
-import ActivityLogs from '@/pages/Admin/ActivityLogs.vue';
 import AdminTransaction from '@/pages/Admin/AdminTransaction.vue';
 import AdminNotification from '@/pages/Admin/AdminNotification.vue';
 import AdminSettings from '@/pages/Admin/AdminSettings.vue';
-
+import ActivityLogs from '@/pages/Admin/ActivityLogs.vue';
 
 
 
@@ -23,6 +22,8 @@ const routes = [
         {path: '/AdminNotification', name: 'AdminNotification', component: AdminNotification, meta: { navbar: 'default' },  
     },
         {path: '/AdminSettings', name: 'AdminSettings', component: AdminSettings, meta: { navbar: 'default' },  
+    },
+        {path: '/ActivityLogs', name: 'ActivityLogs', component: ActivityLogs, meta: { navbar: 'default' },  
     },
      
     // Add other routes as needed
