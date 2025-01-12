@@ -1,11 +1,11 @@
 <template>
     <div class="relative flex h-screen">
       <!-- Sidebar -->
-      <div 
-        v-bind:style="{ width: isSidebarWide ? '275px' : '100px' }"
-        class="flex flex-col items-center justify-center bg-white shadow h-screen"
-      >
-      <div class="relative top-[-100px]">
+      <div
+      v-bind:style="{ width: isSidebarWide ? '275px' : '100px' }"
+      class="flex flex-col items-center justify-between bg-white shadow h-full "
+    >
+      <div class="relative">
 
               <!-- Logo -->
                 <div class="flex justify-center py-5 px-7">
@@ -120,7 +120,7 @@
           <!-- Fullscreen toggle button -->
           <button
             @click="wideSidebar"  
-            class="bg-custom-blue text-white px-4 py-2 rounded flex items-center justify-center m-auto relative top-5"
+            class="bg-custom-blue text-white px-4 py-2 rounded flex items-center justify-center m-auto relative"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"

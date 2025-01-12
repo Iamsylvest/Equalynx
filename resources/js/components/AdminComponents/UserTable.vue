@@ -1,12 +1,13 @@
 <template>
   <div class="p-8">
-    <header class="">
-      <h1 class="text-3xl font-bold">User Management</h1>
-      <div class="flex justify-end space-x-4 relative top-[-38px]">
-        <Notification />
-        <Profile />
-      </div>
-    </header>
+    <header class="flex justify-between items-center mb-10">
+        <h1 class="text-3xl font-bold">User Management</h1>
+      
+        <div class="flex space-x-4">
+            <Notification />
+            <Profile />
+        </div>
+        </header>
 
     <div class="flex flex-row justify-between flex-wrap">
       <!-- Element that should be aligned at the start -->

@@ -1,12 +1,13 @@
 <template>
     <div class="p-8">
-      <header>
+        <header class="flex justify-between items-center mb-10">
         <h1 class="text-3xl font-bold">Notification</h1>
-        <div class="flex justify-end space-x-4 relative top-[-40px]">
-          <Notification />
-          <Profile />
+      
+        <div class="flex space-x-4">
+            <Notification />
+            <Profile />
         </div>
-      </header>
+        </header>
   
         <div 
         class="flex flex-row items-center justify-between p-4 space-x-6 border-b-2 border-gray">

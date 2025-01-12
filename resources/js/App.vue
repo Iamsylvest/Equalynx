@@ -1,9 +1,9 @@
 <template>
-  <div class="flex h-screen">
+  <div class="flex h-screen ">
     <!-- AdminNavBar -->
     <AdminNavBar v-if="isAdminNavBarVisible" />
     <!-- Main Content -->
-    <div class="flex-1 p-4">
+    <div class="flex-1 overflow-auto ">
       <router-view />
     </div>
   </div>

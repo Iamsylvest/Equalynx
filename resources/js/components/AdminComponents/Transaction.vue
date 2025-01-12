@@ -1,16 +1,17 @@
 <template>
   <div class="p-8">
-    <header>
-      <h1 class="text-3xl font-bold">Transaction</h1>
-      <div class="flex justify-end space-x-4 relative top-[-40px]">
-        <Notification />
-        <Profile />
-      </div>
-    </header>
+    <header class="flex justify-between items-center mb-10">
+        <h1 class="text-3xl font-bold">Transaction</h1>
+      
+        <div class="flex space-x-4">
+            <Notification />
+            <Profile />
+        </div>
+        </header>
 
     <div class="p-2 relative top-[-10px]">
       <!-- Search, Filter, Delivery Receipt, and Return Receipt buttons aligned on the same line -->
-      <div class="flex flex-wrap justify-between sm:space-x-5 sm:space-y-0 space-y-4 mt-5">
+      <div class="flex flex-wrap justify-between sm:space-x-5 sm:space-y-0 space-y-4 ">
         <div class="flex flex-col sm:flex-row sm:space-x-5 sm:space-y-0 space-y-4">
           <Search />
           <Fillter />
