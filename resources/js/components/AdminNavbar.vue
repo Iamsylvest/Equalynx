@@ -16,7 +16,7 @@
                 />
                 </div>
 
-            <router-link to="/" class="flex items-center mx-6 mb-2  p-4 text-lg font-bold cursor-pointer hover:text-white-600 hover:bg-custom-blue rounded-2xl hover:text-white focus:outline-none">
+            <router-link to="/UserManagement" class="flex items-center mx-6 mb-2  p-4 text-lg font-bold cursor-pointer hover:text-white-600 hover:bg-custom-blue rounded-2xl hover:text-white focus:outline-none">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-6"

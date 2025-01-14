@@ -6,12 +6,14 @@ import AdminTransaction from '@/pages/Admin/AdminTransaction.vue';
 import AdminNotification from '@/pages/Admin/AdminNotification.vue';
 import AdminSettings from '@/pages/Admin/AdminSettings.vue';
 import ActivityLogs from '@/pages/Admin/ActivityLogs.vue';
-
+import Login from '@/auth/views/Login.vue';
 
 
 const routes = [
 
-        {path: '/', name: 'UserManagement', component: UserManagement,   meta: { navbar: 'default' },
+        {path: '/', name: 'Login', component: Login,   meta: { navbar: 'default' },
+    },
+        {path: '/UserManagement', name: 'UserManagement', component: UserManagement,   meta: { navbar: 'default' },
     },
         {path: '/AdminInventory', name: 'AdminInventory', component: AdminInventory, meta: { navbar: 'default' }, 
     },
@@ -25,6 +27,7 @@ const routes = [
     },
         {path: '/ActivityLogs', name: 'ActivityLogs', component: ActivityLogs, meta: { navbar: 'default' },  
     },
+
      
     // Add other routes as needed
 ];

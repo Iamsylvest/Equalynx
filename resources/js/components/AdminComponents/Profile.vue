@@ -21,7 +21,7 @@
                         <div v-if="modalProfile" class="absolute inset-0 flex items-center justify-end bg-opacity-50 ">
                             
                             <div @click="closeModal" class="fixed inset-0 z-10 opacity-50" ></div>
-                            <div class="bg-white border-1 shadow-lg rounded-md px-4 py-10 z-20 mx-4 w-full max-w-sm h-[420px] relative top-[240px] min-w-[200px] max-h-[500px] min-h-[300px]">
+                            <div class="bg-white border-1 shadow-lg rounded-md px-4 py-10 z-20 mx-4 w-full max-w-sm h-[420px] relative left-[-30px] top-[-70px] min-w-[200px] max-h-[500px] min-h-[300px]">
                                 <div class="flex items-center justify-end mb-4 relative top-[-30px]">
                                <!-- x button -->      
                                         <button

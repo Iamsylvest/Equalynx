@@ -15,7 +15,7 @@ import AdminNavBar from './components/AdminNavBar.vue';
 
 export default {
   name: 'App',
-  components:{ AdminNavBar ,
+  components:{ AdminNavBar
 
   },
 

@@ -27,7 +27,7 @@
         <!-- Modal Content -->
         <div
           @click.stop
-          class="bg-white border-1 shadow-lg rounded-md px-4 py-10 z-20 mx-4 w-full max-w-sm h-[550px] relative left-[-60px] top-[300px] min-w-[200px] max-h-[700px] min-h-[300px]"
+          class="bg-white border-1 shadow-lg rounded-md px-4 py-10 z-20 mx-4 w-full max-w-sm h-[550px] relative left-[-100px]  min-w-[200px] max-h-[700px] min-h-[300px]"
         >
           <!-- Notif Content -->
           <div class="relative top-[-30px] space-y-6">
