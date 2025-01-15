@@ -12,7 +12,7 @@
                 <img
                 src="@/assets/EqualynxLogo.png"
                 alt="Equalynx Logo"
-                class="w-32 h-32 object-contain"
+                class="w-full h-32 object-contain"
                 />
                 </div>
 
