@@ -1,7 +1,7 @@
 <template>
     <div class="">
       <!-- Search Input Field -->
-      <div class="relative">
+      <div class="relative ">
         <input
           v-model="query"
           type="text"

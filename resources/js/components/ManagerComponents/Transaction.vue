@@ -1,7 +1,7 @@
 <template>
   <div class="p-8">
     <header class="flex justify-between items-center mb-10">
-        <h1 class="text-3xl font-bold">Transaction</h1>
+        <h1 class=" text-[25px]">Transaction</h1>
       
         <div class="flex space-x-4">
             <Notification />
@@ -19,7 +19,7 @@
 
         <div class="flex flex-col sm:flex-row sm:space-x-7 sm:space-y-0 space-y-4">
           <button
-            class="p-3 px-12 text-md font-bold border-b-2 shadow-md rounded-md focus:outline-none w-full sm:w-auto"
+            class="p-3 px-12 text-[12px] font-bold border-b-2 shadow-md rounded-md focus:outline-none w-full sm:w-auto"
             @click="showTable = 'delivery'"
             :class="{
               'bg-custom-blue text-white': showTable === 'delivery',
@@ -30,7 +30,7 @@
           </button>
 
           <button
-            class="p-3 px-12 text-md font-bold border-b-2 shadow-md rounded-md focus:outline-none w-full sm:w-auto"
+            class="p-3 px-12 text-[12px] font-bold border-b-2 shadow-md rounded-md focus:outline-none w-full sm:w-auto"
             @click="showTable = 'return'"
             :class="{
               'bg-custom-blue text-white': showTable === 'return',
@@ -44,7 +44,7 @@
 
           <!-- Delivery Receipt Table -->
       <div v-if="showTable === 'delivery'" class="mt-5">
-        <table class="table-auto border-collapse shadow-lg w-full">
+        <table class="table-auto border-collapse shadow-lg w-full  text-[12px]">
           <thead class="h-14 bg-gray-100">
             <tr class="bg-custom-blue text-white">
               <th class="px-6 py-4 font-bold text-center">Date</th>
@@ -122,7 +122,7 @@
               <!-- Return Receipt Table -->
             <!-- Return Receipt Table -->
        <div v-if="showTable === 'return'" class="mt-5">
-          <table class="table-auto border-collapse shadow-lg w-full">
+          <table class="table-auto border-collapse shadow-lg w-full  text-[12px]">
             <thead class="h-14 bg-gray-100">
               <tr class="bg-custom-blue text-white">
                 <th class="px-6 py-4 font-bold text-center">Date</th>

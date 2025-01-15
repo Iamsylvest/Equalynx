@@ -1,14 +1,14 @@
 <template>
  <div class="p-8">
     <header class="flex justify-between items-center mb-10">
-        <h1 class="text-3xl font-bold">Settings</h1>
+        <h1 class="text-[25px]">Settings</h1>
       
         <div class="flex space-x-4">
             <Notification />
             <Profile />
         </div>
         </header>
-        <p>Mange your account setting and preferences</p>
+        <p class="text-[15px]">Mange your account setting and preferences</p>
 
             <form 
                 action="/submit-form" 
@@ -17,32 +17,32 @@
                 >
                 <!-- Form Header -->
                 <div class="bg-custom-blue p-4 rounded-md shadow-sm">
-                    <h2 class="text-lg font-bold text-white">Edit Information</h2>
+                    <h2 class="text-[18px] text-white flex items-center justify-center ">Account Information</h2>
                 </div>
 
                 <!-- Section 1: Personal Information -->
                 <div class="bg-white p-4 rounded-md shadow-sm">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <label for="Name" class="block text-sm font-semibold text-gray-700">Name:</label>
+                        <label for="Name" class="block text-[14px] text-gray-700">Name:</label>
                         <input 
                         type="text" 
                         id="Name" 
                         name="Name" 
                         placeholder="Enter your name"
-                        class="mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        class=" text-[14px] mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
                         required
                         />
                     </div>
 
                     <div>
-                        <label for="Email" class="block text-sm font-semibold text-gray-700">Email:</label>
+                        <label for="Email" class="block text-[14px] text-gray-700">Email:</label>
                         <input 
                         type="email" 
                         id="Email" 
                         name="Email" 
                         placeholder="Enter your email"
-                        class="mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        class="text-[14px] mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
                         required
                         />
                     </div>
@@ -53,25 +53,25 @@
                 <div class="bg-white p-4 rounded-md shadow-sm">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <label for="EmployeeID" class="block text-sm font-semibold text-gray-700">Employee ID:</label>
+                        <label for="EmployeeID" class="block text-[14px] text-gray-700">Employee ID:</label>
                         <input 
                         type="number" 
                         id="EmployeeID" 
                         name="EmployeeID" 
                         placeholder="Enter your ID"
-                        class="mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        class="text-[14px] mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
                         required
                         />
                     </div>
 
                     <div>
-                        <label for="Department" class="block text-sm font-semibold text-gray-700">Department/Position:</label>
+                        <label for="Department" class="block text-[14px] text-gray-700">Department/Position:</label>
                         <input 
                         type="text" 
                         id="Department" 
                         name="Department" 
                         placeholder="Enter department/position"
-                        class="mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        class="text-[14px] mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
                         />
                     </div>
                     </div>
@@ -81,38 +81,38 @@
                 <div class="bg-white p-4 rounded-md shadow-sm">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <div>
-                        <label for="CurrentPassword" class="block text-sm font-semibold text-gray-700">Current Password:</label>
+                        <label for="CurrentPassword" class="block text-[14px] text-gray-700">Current Password:</label>
                         <input 
                         type="password" 
                         id="CurrentPassword" 
                         name="CurrentPassword" 
                         placeholder="Enter current password"
-                        class="mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        class="text-[14px] mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
                         required
                         />
                     </div>
 
                     <div>
-                        <label for="NewPassword" class="block text-sm font-semibold text-gray-700">New Password:</label>
+                        <label for="NewPassword" class="block text-[14px] text-gray-700">New Password:</label>
                         <input 
                         type="password" 
                         id="NewPassword" 
                         name="NewPassword" 
                         placeholder="Enter new password"
-                        class="mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        class="text-[14px] mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
                         required
                         />
                     </div>
                     </div>
 
                     <div class="mt-4">
-                    <label for="ReTypeNewPass" class="block text-sm font-semibold text-gray-700">Re-Type New Password:</label>
+                    <label for="ReTypeNewPass" class="block text-[14px] text-gray-700">Re-Type New Password:</label>
                     <input 
                         type="password" 
                         id="ReTypeNewPass" 
                         name="ReTypeNewPass" 
                         placeholder="Re-type new password"
-                        class="mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
+                        class="text-[14px] mt-1 w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-400"
                         required
                     />
                     </div>
@@ -122,25 +122,25 @@
                 <div class="flex justify-end">
                     <button 
                     type="submit" 
-                    class="bg-custom-blue text-white px-6 py-2 w-full rounded-md font-semibold shadow-md"
+                    class="bg-custom-blue text-[14px] text-white px-6 py-2 w-full rounded-md font-semibold shadow-md"
                     >
                     Submit
                     </button>
                 </div>
                 <div class=""> 
-                <p class="text-red-500 text-sm">
+                <p class="text-red-500 text-[14px]">
                     *Atleast 8 characters long 
                 </p>
-                <p class="text-red-500 text-sm">
+                <p class="text-red-500 text-[14px]">
                     *1 lowercase letter
                 </p>
-                <p class="text-red-500 text-sm">
+                <p class="text-red-500 text-[14px]">
                     *1 uppercase letter
                 </p>
-                <p class="text-red-500 text-sm">
+                <p class="text-red-500 text-[14px]">
                     *1 special character
                 </p>
-                <p class="text-red-500 text-sm">
+                <p class="text-red-500 text-[14px]">
                     *different from your previous password
                 </p>
             </div>

@@ -1,7 +1,7 @@
 <template>
   <div class="p-8">
     <header class="flex justify-between items-center mb-10">
-        <h1 class="text-3xl font-bold">Inventory</h1>
+        <h1 class=" text-[25px]">Inventory</h1>
       
         <div class="flex space-x-4">
             <Notification />
@@ -12,7 +12,7 @@
     <div class="flex flex-row justify-between">
       <!-- Element that should be aligned at the start -->
       <div class="flex w-full max-w-32 p-4 sm:whitespace-nowrap md:whitespace-nowrap">
-        <h1 class="text-xl font-semibold">Materials</h1>
+        <h1 class="text-xl">Materials</h1>
       </div>
 
       <!-- Elements that should be aligned at the end -->
@@ -22,7 +22,7 @@
       </div>
     </div>
 
-    <table class="table-auto w-full border-collapse mt-1 shadow-lg">
+    <table class="table-auto w-full border-collapse mt-1 shadow-lg  text-[12px]">
       <thead class="h-14">
         <tr class="bg-custom-blue text-white">
           <th class="px-4 py-2 border-0 text-center font-bold">Description</th>

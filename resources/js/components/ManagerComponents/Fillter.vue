@@ -3,7 +3,7 @@
       <!-- Filter Buttons -->
       <div class="flex space-x-4 mb-4 ">
         <button 
-          class="px-4 py-2 rounded-lg flex items-center justify-center font-semibold bg-white text-gray-700 hover:bg-gray-100 drop-shadow-md md:w-[110px] "
+          class=" text-[12px] px-4 py-2 rounded-lg flex items-center justify-center font-semibold bg-white text-gray-700 hover:bg-gray-100 drop-shadow-md md:w-[110px] "
         >
         Fillter
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="size-6 relative left-1">
