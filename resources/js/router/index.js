@@ -1,11 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-import UserManagement from '@/pages/Admin/UserManagement.vue';
-import AdminInventory from '@/pages/Admin/AdminInventory.vue';
-import AdminTransaction from '@/pages/Admin/AdminTransaction.vue';
-import AdminNotification from '@/pages/Admin/AdminNotification.vue';
-import AdminSettings from '@/pages/Admin/AdminSettings.vue';
-import ActivityLogs from '@/pages/Admin/ActivityLogs.vue';
+import ManagerInventory from '@/pages/Manager/ManagerInventory.vue';
+import ManagerTransaction from '@/pages/Manager/ManagerTransaction.vue';
+import ManagerSettings from '@/pages/Manager/ManagerSettings.vue';
+import ManagerActivityLogs from '@/pages/Manager/ManagerActivityLogs.vue';
 import Login from '@/auth/views/Login.vue';
 
 
@@ -13,19 +11,14 @@ const routes = [
 
         {path: '/', name: 'Login', component: Login,   meta: { navbar: 'default' },
     },
-        {path: '/UserManagement', name: 'UserManagement', component: UserManagement,   meta: { navbar: 'default' },
+        {path: '/ManagerInventory', name: 'ManagerInventory', component: ManagerInventory, meta: { navbar: 'default' }, 
     },
-        {path: '/AdminInventory', name: 'AdminInventory', component: AdminInventory, meta: { navbar: 'default' }, 
+        {path: '/ManagerTransaction', name: 'ManagerTransaction', component: ManagerTransaction, meta: { navbar: 'default' }, 
     },
-        {path: '/AdminTransaction', name: 'AdminTransaction', component: AdminTransaction, meta: { navbar: 'default' }, 
+        {path: '/ManagerActivityLogs', name: 'ManagerActivityLogs', component: ManagerActivityLogs, meta: { navbar: 'default' },  
     },
-        {path: '/ActivityLogs', name: 'ActivityLogs', component: ActivityLogs, meta: { navbar: 'default' },  
-    },
-        {path: '/AdminNotification', name: 'AdminNotification', component: AdminNotification, meta: { navbar: 'default' },  
-    },
-        {path: '/AdminSettings', name: 'AdminSettings', component: AdminSettings, meta: { navbar: 'default' },  
-    },
-        {path: '/ActivityLogs', name: 'ActivityLogs', component: ActivityLogs, meta: { navbar: 'default' },  
+    
+        {path: '/ManagerSettings', name: 'ManagerSettings', component: ManagerSettings, meta: { navbar: 'default' },  
     },
 
      

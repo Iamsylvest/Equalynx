@@ -1,7 +1,7 @@
 <template>
   <div class="flex h-screen ">
     <!-- AdminNavBar -->
-    <AdminNavBar v-if="isAdminNavBarVisible" />
+    <ManagerNavBar v-if="isManagerNavBarVisible" />
     <!-- Main Content -->
     <div class="flex-1 overflow-auto ">
       <router-view />
@@ -10,24 +10,24 @@
 </template>
 
 <script>
-import AdminNavBar from './components/AdminNavBar.vue';
+import ManagerNavBar from '@/components/ManagerNavBar.vue';
 
 
 export default {
   name: 'App',
-  components:{ AdminNavBar
+  components:{ ManagerNavBar
 
   },
 
   data() {
     return {
       // Flag to control the visibility of the AdminNavBar
-      isAdminNavBarVisible: true, // Set to false to hide the navbar
+      isManagerNavBarVisible: true, // Set to false to hide the navbar
     };
   },
   methods: {
     toggleNavBar() {
-      this.isAdminNavBarVisible = !this.isAdminNavBarVisible;
+      this.isManagerNavBarVisible = !this.isManagernNavBarVisible;
     },
   },
 };

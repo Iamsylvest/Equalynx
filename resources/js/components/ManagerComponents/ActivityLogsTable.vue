@@ -171,8 +171,8 @@
 </template>
 
 <script>
-import Profile from '@/components/AdminComponents/Profile.vue';
-import Notification from '@/components/AdminComponents/Notification.vue';
+import Profile from '@/components/ManagerComponents/Profile.vue';
+import Notification from '@/components/ManagerComponents/Notification.vue';
 
 export default {
   name: 'ActivityLogsTable',

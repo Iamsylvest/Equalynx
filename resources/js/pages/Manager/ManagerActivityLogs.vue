@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import ActivityLogsTable from '@/components/AdminComponents/ActivityLogsTable.vue'; 
+import ActivityLogsTable from '@/components/ManagerComponents/ActivityLogsTable.vue'; 
 
 
 export default {

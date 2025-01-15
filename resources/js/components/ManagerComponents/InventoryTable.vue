@@ -53,10 +53,10 @@
 </template>
 
 <script>
-import Profile from '@/components/AdminComponents/Profile.vue';
-import Notification from '@/components/AdminComponents/Notification.vue';
-import Fillter from '@/components/AdminComponents/Fillter.vue';
-import Search from '@/components/AdminComponents/Search.vue';
+import Profile from '@/components/ManagerComponents/Profile.vue';
+import Notification from '@/components/ManagerComponents/Notification.vue';
+import Fillter from '@/components/ManagerComponents/Fillter.vue';
+import Search from '@/components/ManagerComponents/Search.vue';
 
   export default {
     name: "InventoryTable",
