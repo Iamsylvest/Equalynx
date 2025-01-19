@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import InventoryTable from '@/components/ManagerComponents/InventoryTable.vue';
+import InventoryTable from '@/components/WarehouseComponents/ManagerComponents/InventoryTable.vue';
 
 
 export default {
-    name: 'ManagerInventory',
+    name: 'WarehouseInventory',
 
     components: {
         InventoryTable,

@@ -153,8 +153,8 @@
 </template>
 
 <script>
-import Profile from '@/components/ManagerComponents/Profile.vue';
-import Notification from '@/components/ManagerComponents/Notification.vue';
+import Profile from '@/components/WarehouseComponents/ManagerComponents/Profile.vue';
+import Notification from '@/components/WarehouseComponents/ManagerComponents/Notification.vue';
 
 export default {
     name: 'Settings',

@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Settings from '@/components/ManagerComponents/Settings.vue';
+import Settings from '@/components/WarehouseComponents/ManagerComponents/Settings.vue';
 
 export default {
 
-    name: 'ManagerSettings',
+    name: 'WarehouseSettings',
 
     components: {
         Settings,

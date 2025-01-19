@@ -5,12 +5,12 @@
 </template>
 
 <script>
-import Transaction from '@/components/ManagerComponents/Transaction.vue';
+import Transaction from '@/components/WarehouseComponents/ManagerComponents/Transaction.vue';
 
 export default {
 
 
-    name: 'ManagerTransaction',
+    name: 'WarehouseTransaction',
 
     components: { Transaction,
         

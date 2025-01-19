@@ -1,7 +1,7 @@
 <template>
   <div class="flex h-screen ">
     <!-- AdminNavBar -->
-    <ManagerNavBar v-if="isManagerNavBarVisible" />
+    <WarehouseNavBar v-if="isWarehouseNavBarVisible" />
     <!-- Main Content -->
     <div class="flex-1 overflow-auto ">
       <router-view />
@@ -10,24 +10,24 @@
 </template>
 
 <script>
-import ManagerNavBar from '@/components/ManagerNavBar.vue';
+import WarehouseNavBar from '@/components/WarehouseNavBar.vue';
 
 
 export default {
   name: 'App',
-  components:{ ManagerNavBar
+  components:{ WarehouseNavBar
 
   },
 
   data() {
     return {
       // Flag to control the visibility of the AdminNavBar
-      isManagerNavBarVisible: true, // Set to false to hide the navbar
+      isWarehouseNavBarVisible: true, // Set to false to hide the navbar
     };
   },
   methods: {
     toggleNavBar() {
-      this.isManagerNavBarVisible = !this.isManagernNavBarVisible;
+      this.isWarehouseNavBarVisible = !this.isWarehouseNavBarVisible;
     },
   },
 };

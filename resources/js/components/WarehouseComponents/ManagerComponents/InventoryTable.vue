@@ -30,33 +30,48 @@
           <th class="px-4 py-2 border-0 text-center font-bold">Measurements</th>
           <th class="px-4 py-2 border-0 text-center font-bold">Threshold</th>
           <th class="px-4 py-2 border-0 text-center font-bold">Last Update</th>
+          <th class="px-4 py-2 border-0 font-bold text-center">Action</th>
         </tr>
       </thead>
       <tbody>
-        <tr class="bg-white">
-          <td class="text-center px-4 py-2 border-0">50</td>
-          <td class="text-center px-4 py-2 border-0">50</td>
-          <td class="text-center px-4 py-2 border-0">2 cm</td>
-          <td class="text-center px-4 py-2 border-0">10</td>
-          <td class="text-center px-4 py-2 border-0">11/26/2024</td>
-        </tr>
+
         <tr class="bg-gray-100">
           <td class="text-center px-4 py-2 border-0">5</td>
           <td class="text-center px-4 py-2 border-0">5</td>
           <td class="text-center px-4 py-2 border-0">2 cm</td>
           <td class="text-center px-4 py-2 border-0">10</td>
           <td class="text-center px-4 py-2 border-0">11/26/2024</td>
+          <td class="text-center px-4 py-2 border-0 space-x-1">
+                                    <!-- add Icon  -->
+              <button >
+                <RestockMaterialModal/>
+              </button>
+
+                <button>
+                 <EditThresholdModal/>
+                </button>
+                
+          </td>
         </tr>
       </tbody>
     </table>
+                 <!-- CREATE  -->
+      <div class="flex justify-center mt-64 absolute">
+                <button>
+                  <AddMaterialModal/>
+               </button>
+        </div>
   </div>
 </template>
 
 <script>
-import Profile from '@/components/ManagerComponents/Profile.vue';
-import Notification from '@/components/ManagerComponents/Notification.vue';
-import Fillter from '@/components/ManagerComponents/Fillter.vue';
-import Search from '@/components/ManagerComponents/Search.vue';
+import Profile from '@/components/WarehouseComponents/ManagerComponents/Profile.vue';
+import Notification from '@/components/WarehouseComponents/ManagerComponents/Notification.vue';
+import Fillter from '@/components/WarehouseComponents/ManagerComponents/Fillter.vue';
+import Search from '@/components/WarehouseComponents/ManagerComponents/Search.vue';
+import AddMaterialModal from '@/components/WarehouseComponents/ManagerComponents/AddMaterialModal.vue';
+import RestockMaterialModal from '@/components/WarehouseComponents/ManagerComponents/RestockMaterialModal.vue';
+import EditThresholdModal from '@/components/WarehouseComponents/ManagerComponents/EditThresholdModal.vue';
 
   export default {
     name: "InventoryTable",
@@ -66,6 +81,9 @@ import Search from '@/components/ManagerComponents/Search.vue';
         Notification,
         Fillter,
         Search,
+        AddMaterialModal,
+        RestockMaterialModal,
+        EditThresholdModal,
     },
 
   };
