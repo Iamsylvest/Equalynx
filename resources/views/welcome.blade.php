@@ -7,6 +7,7 @@
         <title>Equalynx</title>
 
         <!-- Fonts -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
         <link rel="preconnect" href="https://fonts.bunny.net">
         <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
 
@@ -17,7 +18,7 @@
          
         @endif
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased bg-[#FCFCFC]">
     <div id="app"></div>
     </body>
 </html>

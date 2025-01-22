@@ -1,31 +1,33 @@
 import { createRouter, createWebHistory } from 'vue-router';
 
-import UserManagement from '@/pages/Admin/UserManagement.vue';
-import AdminInventory from '@/pages/Admin/AdminInventory.vue';
-import AdminTransaction from '@/pages/Admin/AdminTransaction.vue';
-import AdminNotification from '@/pages/Admin/AdminNotification.vue';
-import AdminSettings from '@/pages/Admin/AdminSettings.vue';
-import ActivityLogs from '@/pages/Admin/ActivityLogs.vue';
+import Procurement_Dashboard from '@/pages/Procurement/Procurement_Dashboard.vue';
+import Procurement_Inventory from '@/pages/Procurement/Procurement_Inventory.vue';
+import Procurement_Transaction from '@/pages/Procurement/Procurement_Transaction.vue';
+import Procurement_Notification from '@/pages/Procurement/Procurement_Notification.vue';
+import Procurement_Settings from '@/pages/Procurement/Procurement_Settings.vue';
+
 
 
 
 const routes = [
 
-        {path: '/', name: 'UserManagement', component: UserManagement,   meta: { navbar: 'default' },
+    {
+        path: '/', name: 'Procurement_Dashboard', component: Procurement_Dashboard, meta: { navbar: 'default' },
     },
-        {path: '/AdminInventory', name: 'AdminInventory', component: AdminInventory, meta: { navbar: 'default' }, 
+    {
+        path: '/Procurement_Inventory', name: 'Procurement_Inventory', component: Procurement_Inventory, meta: { navbar: 'default' },
     },
-        {path: '/AdminTransaction', name: 'AdminTransaction', component: AdminTransaction, meta: { navbar: 'default' }, 
+    {
+        path: '/Procurement_Transaction', name: 'Procurement_Transaction', component: Procurement_Transaction, meta: { navbar: 'default' },
     },
-        {path: '/ActivityLogs', name: 'ActivityLogs', component: ActivityLogs, meta: { navbar: 'default' },  
+    {
+        path: '/Procurement_Notification', name: 'Procurement_Notification', component: Procurement_Notification, meta: { navbar: 'default' },
     },
-        {path: '/AdminNotification', name: 'AdminNotification', component: AdminNotification, meta: { navbar: 'default' },  
+    {
+        path: '/Procurement_Settings', name: 'Procurement_Settings', component: Procurement_Settings, meta: { navbar: 'default' },
     },
-        {path: '/AdminSettings', name: 'AdminSettings', component: AdminSettings, meta: { navbar: 'default' },  
-    },
-        {path: '/ActivityLogs', name: 'ActivityLogs', component: ActivityLogs, meta: { navbar: 'default' },  
-    },
-     
+
+
     // Add other routes as needed
 ];
 

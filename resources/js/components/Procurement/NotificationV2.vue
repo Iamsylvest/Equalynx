@@ -119,8 +119,8 @@
   </template>
   
   <script>
-  import Profile from '@/components/AdminComponents/Profile.vue';
-  import Notification from '@/components/AdminComponents/Notification.vue';
+  import Profile from '@/components/Procurement/Profile.vue';
+  import Notification from '@/components/Procurement/Notification.vue';
 
   
   

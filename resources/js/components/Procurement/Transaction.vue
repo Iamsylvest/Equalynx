@@ -138,10 +138,10 @@
 </template>
 
 <script>
-import Profile from '@/components/AdminComponents/Profile.vue';
-import Notification from '@/components/AdminComponents/Notification.vue';
-import Fillter from '@/components/AdminComponents/Fillter.vue';
-import Search from '@/components/AdminComponents/Search.vue';
+import Profile from '@/components/Procurement/Profile.vue';
+import Notification from '@/components/Procurement/Notification.vue';
+import Fillter from '@/components/Procurement/Fillter.vue';
+import Search from '@/components/Procurement/Search.vue';
 
 export default {
   name: "Transaction",

@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Settings from '../../components/AdminComponents/Settings.vue';
+import Settings from '../../components/Procurement/Settings.vue';
 
 export default {
 
-    name: 'AdminSettings',
+    name: 'Procurement_Settings',
 
     components: {
         Settings,

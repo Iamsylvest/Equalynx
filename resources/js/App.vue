@@ -1,7 +1,7 @@
 <template>
   <div class="flex h-screen ">
     <!-- AdminNavBar -->
-    <AdminNavBar v-if="isAdminNavBarVisible" />
+    <Procurement v-if="isAdminNavBarVisible" />
     <!-- Main Content -->
     <div class="flex-1 overflow-auto ">
       <router-view />
@@ -10,12 +10,13 @@
 </template>
 
 <script>
-import AdminNavBar from './components/AdminNavBar.vue';
+import Procurement from './components/Procurement_Navbar.vue';
 
 
 export default {
   name: 'App',
-  components:{ AdminNavBar ,
+  components: {
+    Procurement,
 
   },
 
@@ -32,4 +33,3 @@ export default {
   },
 };
 </script>
-

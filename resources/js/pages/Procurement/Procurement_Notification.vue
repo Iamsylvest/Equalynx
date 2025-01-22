@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import NotificationV2 from '@/components/AdminComponents/NotificationV2.vue';
+import NotificationV2 from '@/components/Procurement/NotificationV2.vue';
 
 export default {
 

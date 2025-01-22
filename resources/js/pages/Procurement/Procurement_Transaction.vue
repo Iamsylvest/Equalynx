@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import Transaction from '@/components/AdminComponents/Transaction.vue';
+import Transaction from '@/components/Procurement/Transaction.vue';
 
 export default {
 
